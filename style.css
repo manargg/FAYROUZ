@@ -241,6 +241,7 @@ header{
     justify-content: center;
     flex-direction: column;
     color: white;
+    padding-inline: 10px;
 }
 .hero-content h1{
     font-size: 2rem;
@@ -250,7 +251,6 @@ header{
     gap: 20px;
     width: 80%;
     margin: auto;
-
 }
 .hero-img{
     position: relative;
@@ -298,6 +298,7 @@ header{
 /*THE AUDIO SECTION*/
 .audio{
     margin-top: 100px;
+    
 }
 .audio-heading, .play-list{
     width: 80%;
@@ -329,11 +330,13 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+   
 }
 .left{
     display: flex;
     align-items: center;
     column-gap: 10px;
+   
 }
 .left {
     font-size: 2rem;
@@ -348,9 +351,11 @@ header{
 }
 .left .name{
     font-size: .75rem;
+ 
 }
 .play-list{
     margin-top: 50px;
+
 }
 .right{
     color: white;

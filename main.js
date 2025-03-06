@@ -1,4 +1,6 @@
 
+document.addEventListener("DOMContentLoaded", () => {
+
 /*Display the side menu*/ 
 const toggleIcon = document.querySelector(".toggle-icon");
 const sideMenu = document.getElementById("side-menu");
@@ -78,5 +80,7 @@ menuItem1.forEach((menuItem, index) => {
         });
     });
 
+
+});
 
 
